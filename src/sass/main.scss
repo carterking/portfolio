@@ -106,12 +106,12 @@ nav {
 
 .hero-container {
     display: flex;
-    max-width: 1200px;
     text-align: center;
 }
 
 .hero-container .hero-image img {
     width: 90%;
+    max-height: 450px;
 }
 
 a {
