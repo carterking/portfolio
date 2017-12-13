@@ -200,3 +200,16 @@ footer {
     text-align: center;
     padding: $padding-large 0;
 }
+
+/* Media queries to change header size */
+@media screen and (max-width: 430px) {
+    #non-mobile-header {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 431px) {
+    #mobile-header {
+        display: none;
+    }
+}
