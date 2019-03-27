@@ -114,11 +114,13 @@ nav {
     display: flex;
     justify-content: center;
     margin: 5px;
+    max-height: 500px;
 }
 
 .responsive-image {
     max-width: 100%;
     align-self: center;
+    max-height: 300px;
 }
 
 a {
